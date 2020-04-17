@@ -348,7 +348,7 @@ a:active {
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
-    right: 25px;
+    right: 0px;
     width: 75px;
     height: 75px;
     cursor: pointer;
