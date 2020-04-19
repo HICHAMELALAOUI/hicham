@@ -779,3 +779,35 @@ a:active {
 .mb-0{color:white;}
 .progress{margin-bottom: 13px;}
 .skill-mf{color: black;}
+.loader {
+  display: inline-block;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+
+.loader-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      position: fixed;
+    z-index: 10680;
+    left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.logoload{
+  z-index: 99999;
+    width: 100px;
+    position: absolute;
+}
