@@ -31,7 +31,7 @@
    
 </head>
 
-<body id="page-top" oncontextmenu="return false;" >
+<body id="page-top" oncontextmenu="return false;" onload="myFunction()">
 	
   <div class="loader-wrapper">
     <img class="logoload" src="img/logo.png">
@@ -300,11 +300,7 @@
               </div> 
           </div>
       </section>
-<script type="text/javascript">
-      	document.getElementsByClassName("loader-wrapper")[0].style.display = "none";
-      	//$(".loader-wrapper").fadeOut("slow");
-		//alert("charged part");
-	</script>
+
 <!--====================================================
                         SKILLS
     ======================================================-->       
@@ -1184,7 +1180,7 @@ myCustomScrollbar.onscroll = function () {
   scrollbarY.style.cssText = `top: ${this.scrollTop}px!important; height: 400px; right: ${-this.scrollLeft}px`;
 }
 </script-->
-<!--script>
+<script>
 
 /*  $(window).on("load",function(){
     $(".loader-wrapper").fadeOut("slow");
@@ -1193,10 +1189,14 @@ myCustomScrollbar.onscroll = function () {
 
   function myFunction(){
     	//document.getElementsByClassName("loader-wrapper")[0].style.display = "none";
-    	//$(".loader-wrapper").fadeOut("slow");
-    	alert('charged');
+    	$(".loader-wrapper").delay().fadeOut("slow");
+    	//alert('charged');
   }
-</script-->
+	//setTimeout(function(){document.getElementsByClassName("loader-wrapper")[0].style.display = "none";}, 1000);
+      	
+   //(".loader-wrapper").fadeOut("slow");
+		//alert("charged part");
+	</script>
 </body>
 
 </html>
