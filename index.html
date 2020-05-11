@@ -31,11 +31,12 @@
    
 </head>
 
-<body id="page-top" oncontextmenu="return false;" onload="myFunction()">
-  <div class="loader-wrapper">
+<body id="page-top" oncontextmenu="return false;" >
+	
+  <!--div class="loader-wrapper">
     <img class="logoload" src="img/logo.png">
   <span class="loader"><span class="loader-inner"><img src="img/gif.gif"></span></span>
-  </div>  
+  </div-->  
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
   
   <div class="form-inline"> 
@@ -47,6 +48,7 @@
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
         </span>
       </a>
+     
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -75,6 +77,11 @@
     </nav>
 
     <div class="container-fluid p-0">
+    	<script type="text/javascript">
+      	//document.getElementsByClassName("loader-wrapper")[0].style.display = "none";
+      	//$(".loader-wrapper").fadeOut("slow");
+		alert("charged part");
+	</script>
 
     <!--====================================================
                         ABOUT
@@ -85,7 +92,7 @@
               <h2 class="mb-5 white">Développeur Informatique Indépendant
               </h2>
               <!--div class="typewrite subheading mb-5" data-period="2000" data-type='[ "Hi, Im Si.", "DÉVELOPPEUR INFORMATIQUE INDÉPENDANT", "I Love Design.", "I Love to Develop." ]'></div-->
-              
+               
               <p class="mb-5" style="margin:0 auto; max-width: 600px;" >Je suis Développeur Web Full-stack, titulaire d'un Master en Ingénierie des Systèmes Informatiques, passionné par le Developpement web. J'ai créé ce site pour que vous puissiez me connaître personnellement, ma carrière en tant développeur et web designer, mon portfolio, mes projets personnels et professionnels et bien plus encore. Enjoy!<br> </p>
               <ul class="list-inline list-social-icons mb-0">
                   <!--li class="list-inline-item">
@@ -1177,7 +1184,7 @@ myCustomScrollbar.onscroll = function () {
   scrollbarY.style.cssText = `top: ${this.scrollTop}px!important; height: 400px; right: ${-this.scrollLeft}px`;
 }
 </script-->
-<script>
+<!--script>
 
 /*  $(window).on("load",function(){
     $(".loader-wrapper").fadeOut("slow");
@@ -1186,10 +1193,10 @@ myCustomScrollbar.onscroll = function () {
 
   function myFunction(){
     	//document.getElementsByClassName("loader-wrapper")[0].style.display = "none";
-    	$(".loader-wrapper").fadeOut("slow");
-    	
+    	//$(".loader-wrapper").fadeOut("slow");
+    	alert('charged');
   }
-</script>
+</script-->
 </body>
 
 </html>
