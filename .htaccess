@@ -1,2 +1,4 @@
 ErrorDocument 404 /index.html
-Redirect 301 https://www.hicham.tech/ https://hicham.tech/
+RewriteEngine On
+RewriteCond %{HTTP_HOST} www.hicham.tech
+RewriteRule (.*) https://hicham.tech/$1 [R=301,L]
