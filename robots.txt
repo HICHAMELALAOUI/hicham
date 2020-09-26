@@ -1,2 +1,2 @@
 User-Agent: * 
-Sitemap: http://hicham.tech/sitemap.xml 
+Sitemap: https://hicham.tech/sitemap.xml 
