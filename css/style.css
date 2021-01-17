@@ -262,6 +262,8 @@ a:active {
     max-width: 400px;
     margin: 0 auto;
     cursor: pointer;
+    border: #1a1b36 1px solid;
+    border-radius: 5px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption-port {
