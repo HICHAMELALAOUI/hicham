@@ -8,6 +8,8 @@ RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 RewriteCond %{ENV:HTTPS} !on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
+Cache-Control: max-age=600
+
  ##EXPIRES CACHING##
 <IfModule mod_expires.c>
 ExpiresActive On
