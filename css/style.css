@@ -814,3 +814,5 @@ a:active {
     width: 100px;
     position: absolute;
 }
+.bot-wtsp{text-align:center;position:fixed;bottom:10px;background:#25d366;border-radius:50px;z-index:99;height:65px;width:65px;box-shadow:0 0 7px 0 green;font-size:41px;color:#fff}
+.bot-wtsp{bottom:12px;right:12px}
